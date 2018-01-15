@@ -1,6 +1,6 @@
 package fcu_d0578350;
 
-class Login {
+class login {
     public String account[] = {"aaa", "bbb", "ccc"};
     public String password[] = {"111", "222", "333"};
     public int temp[] = new int [8];
@@ -52,6 +52,13 @@ class Login {
         }
     }
 
+    public int[] getShowCode(){
+        return temp;
+    }
+
+    public String[] getAccount(){
+        return account;
+    }
     public void show_code() {
         System.out.print("驗證碼為:");
         //      驗證碼
@@ -101,13 +108,4 @@ class Login {
     }
 }
 
-public class login {
 
-    public static void main(String[] args) {
-        // 建立一個系統登入的物件
-        Login s_login = new Login();
-        // 開啟系統
-        s_login.key_in();
-    }
-
-}
