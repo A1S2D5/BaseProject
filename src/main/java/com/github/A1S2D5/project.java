@@ -8,16 +8,16 @@ public class project {
 
 
     public boolean Mover(int M){
-        if(M >= 61)
-            return false;
+        if(M <= 60)
+         return true;
         else
-            return true;
+        return false;
     }
     public boolean Sover(int S){
-        if((S >= 61) || (S < 0))
-            return false;
+        if((S >= 0) && (S < 60 ))
+         return true;
         else
-            return true;
+            return false;
     }
 
 
