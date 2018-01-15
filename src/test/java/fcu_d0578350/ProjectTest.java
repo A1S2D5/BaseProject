@@ -76,4 +76,5 @@ public class ProjectTest extends TestCase{
         assertEquals(minresult, myproject.equals_min());
         assertEquals(secresult, myproject.equals_sec());
     }
+
 }
