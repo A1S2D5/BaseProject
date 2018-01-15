@@ -1,9 +1,7 @@
 package fcu_d0578350;
 
-import junit.framework.*;
-import com.github.A1S2D5.project;
-import org.junit.Assert;
-//import org.junit.Test;
+import junit.framework.TestCase;
+import org.junit.*;
 
 public class ProjectTest extends TestCase{
 
@@ -12,15 +10,15 @@ public class ProjectTest extends TestCase{
     public boolean secresult = false;
 
     public Project myproject;
-
-    public void setUp(){
+    @Before
+    public void setUp() throws Exception{
         myproject = new Project();
     }
-
-    public void tardown(){
+    @After
+    public void tardown() throws Exception{
         myproject  = null;
     }
-
+    @Test
     public void test1(){
         inputmin = 1;
         inputsec = 7;
@@ -34,7 +32,7 @@ public class ProjectTest extends TestCase{
         assertEquals(minresult, myproject.equals_min());
         assertEquals(secresult, myproject.equals_sec());
     }
-
+    @Test
     public void test2(){
         inputsec = 61;
         inputmin = 0;
@@ -48,7 +46,7 @@ public class ProjectTest extends TestCase{
         assertEquals(minresult, myproject.equals_min());
         assertEquals(secresult, myproject.equals_sec());
     }
-
+    @Test
     public void test3(){
         inputmin = 61;
         inputsec = 7;
@@ -62,7 +60,7 @@ public class ProjectTest extends TestCase{
         assertEquals(minresult, myproject.equals_min());
         assertEquals(secresult, myproject.equals_sec());
     }
-
+    @Test
     public void test4(){
         inputmin = 63;
         inputsec = 67;
