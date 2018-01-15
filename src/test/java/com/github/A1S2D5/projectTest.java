@@ -11,16 +11,21 @@ public class projectTest {
 
    @Before
     public void setUp() throws Exception {
-time = new project();
+        time = new project();
     }
 
     @Test
-    public void mover() {
-time.Mover(61);
+    public void project() throws Exception{
+
+    }
+
+   /* @Test
+    public void mover() throws Exception{
+        time.Mover(61);
     }
 
     @Test
-    public void sover() {
+    public void sover() throws Exception{
        time.Sover(61);
-    }
+    }*/
 }
