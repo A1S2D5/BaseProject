@@ -8,7 +8,7 @@ public class project {
 
 
     public boolean Mover(int M){
-        if(M <= 60)
+        if(M <= 60 && M >= 0)
          return true;
         else
         return false;

@@ -7,7 +7,8 @@ import static org.junit.Assert.*;
 
 public class projectTest {
 
-    project time;
+    public project time;
+    public boolean result = false;
 
    @Before
     public void setUp() throws Exception {
@@ -15,17 +16,21 @@ public class projectTest {
     }
 
     @Test
-    public void project() throws Exception{
-
-    }
-
-   /* @Test
-    public void mover() throws Exception{
-        time.Mover(61);
+    public void test1() throws Exception{
+        assertTrue("Should Be True", true);
     }
 
     @Test
-    public void sover() throws Exception{
-       time.Sover(61);
-    }*/
+    public void test2() throws Exception{
+       time.M = 32;
+       result = true;
+        assertEquals(result, time.Mover(time.M));
+    }
+
+    @Test
+    public void test3() throws Exception{
+       time.S = 30;
+       result = true;
+       assertEquals(result, time.Sover(time.S));
+    }
 }
