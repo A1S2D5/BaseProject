@@ -69,7 +69,7 @@ public class Server {
         return acceptMessage;
     }
 
-    public static void main(String args[]) {
+   /* public static void main(String args[]) {
         new Server();
-    }
+    }*/
 }

@@ -12,38 +12,38 @@ class login {
         String msg = "";
 
 
-            System.out.println("請輸入帳號:");
-            key_id = "aaa";
+        System.out.println("請輸入帳號:");
+        key_id = "aaa";
 
-            System.out.println("請輸入密碼:");
-            key_pw = "111";
+        System.out.println("請輸入密碼:");
+        key_pw = "111";
 
-            // 秀出驗證碼
-            show_code();
-            // 輸入驗證碼
-            System.out.println("請輸入驗證碼:");
-            key_code = getShowCode();
+        // 秀出驗證碼
+        show_code();
+        // 輸入驗證碼
+        System.out.println("請輸入驗證碼:");
+        key_code = getShowCode();
 
-            // 呼叫 check(    )
-            switch (check(key_id, key_pw, key_code)) {
-                case 1:
-                    msg = "登入成功";
-                    break;
-                case 2:
-                    msg = "帳號錯誤";
-                    break;
-                case 3:
-                    msg = "密碼錯誤";
-                    break;
-                case 4:
-                    msg = "驗證碼錯誤";
-                    break;
-                default:
-                    msg = "系統異常";
-                    break;
-            }
-            System.out.println(msg);
-            return msg;
+        // 呼叫 check(    )
+        switch (check(key_id, key_pw, key_code)) {
+            case 1:
+                msg = "登入成功";
+                break;
+            case 2:
+                msg = "帳號錯誤";
+                break;
+            case 3:
+                msg = "密碼錯誤";
+                break;
+            case 4:
+                msg = "驗證碼錯誤";
+                break;
+            default:
+                msg = "系統異常";
+                break;
+        }
+        System.out.println(msg);
+        return msg;
     }
 
     public int[] setShowCode(){
@@ -130,32 +130,3 @@ class login {
         return op;
     }
 }
-
-public class Login {
-
-    public static void main(String[] args) {
-        // 建立一個系統登入的物件
-        login s_login = new login();
-        // 開啟系統
-        s_login.key_in();
-
-        Client myclient = new Client();
-        myclient.setClient(8888);
-        myclient.getAcceptMessage();
-        myclient.getInputMessage();
-
-        Server myserver = new Server();
-        myserver.setServer(8888);
-        myserver.getAcceptMessage();
-        myserver.getInputMessage();
-
-        Project myproject = new Project();
-        myproject.setSecend(10);
-        myproject.setMinute(10);
-        myproject.equals_min();
-        myproject.equals_sec();
-    }
-
-}
-
-
