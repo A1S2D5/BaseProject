@@ -70,10 +70,20 @@ class login {
     public String[] getAccount(){
         return account;
     }
+
+    public String[] setPassword(){
+        this.password = password;
+        return password;
+    }
+
+    public String[] getPassword() {
+        return password;
+    }
+
     public void show_code() {
         System.out.print("驗證碼為:");
         //      驗證碼
-        for (int i = 0; i < 8; i++) {
+        /*for (int i = 0; i < 8; i++) {
             if (i < 3) {                                           //前 3 放數字
                 temp[i] = (int) ((Math.random() * 10) + 48);
             } else if (i < 6) {                                           // 中間 3 位放大寫英文
@@ -81,9 +91,10 @@ class login {
             } else {                                           // 後 2 位放小寫英文
                 temp[i] = ((int) ((Math.random() * 26) + 97));
             }
+        }*/
+        setShowCode();
 
-            System.out.print((char) temp[i]);
-        }
+        System.out.print(getShowCode());
 
         System.out.println();
     }
@@ -97,7 +108,7 @@ class login {
         for (int i = 0; i < account.length; i++) {
             String code_t = "";
             for (int j = 0; j < 8; j++) {
-                code_t += (char) temp[j];
+                code_t += (char) getShowCode()[j];
             }
             if (id.equals(account[i]) && pw.equals(password[i]) && code.equals(code_t)) {
                 op = 1;

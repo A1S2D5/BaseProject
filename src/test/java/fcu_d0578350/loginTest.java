@@ -7,7 +7,8 @@ public class loginTest extends TestCase{
 
     public int[] input = new int[8];
     public String[] account = new String[3];
-    public String password[] = {"111", "222", "333"};
+    public String[] password = {"111", "222", "333"};
+    public int op = 0;
     public login mylogin;
     @Before
     public void setUp() throws Exception{
@@ -28,5 +29,20 @@ public class loginTest extends TestCase{
         account = mylogin.setAccount();
 
         assertEquals(account, mylogin.getAccount());
+    }
+    @Test
+    public void test3(){
+        password = mylogin.setPassword();
+
+        assertEquals(password, mylogin.getPassword());
+    }
+    @Test
+    public void test4(){
+        account = mylogin.setAccount();
+        password = mylogin.setPassword();
+        input = mylogin.setShowCode();
+        op = 4;
+
+        assertEquals(op, mylogin.check(account[0], password[0], input));
     }
 }
