@@ -15,6 +15,11 @@ public class Server {
         client = 0;
     }
 
+    public int setServer(int server){
+        this.server = server;
+        return server;
+    }
+
     public int getServer(){
         return server;
     }

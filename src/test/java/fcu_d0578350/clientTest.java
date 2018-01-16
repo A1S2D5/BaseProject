@@ -50,4 +50,10 @@ public class clientTest extends TestCase{
         acceptMessage = myClient.setAcceptMessage(inputMessage);
         assertEquals(acceptMessage, myClient.getAcceptMessage());
     }
+    @Test
+    public void test6(){
+        ans = true;
+        client = myClient.setClient(8888);
+        assertEquals(client, myClient.getClient());
+    }
 }

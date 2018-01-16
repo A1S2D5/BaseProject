@@ -13,6 +13,11 @@ public class Client {
         server = 0;
     }
 
+    public int setClient(int client){
+        this.client = client;
+        return client;
+    }
+
     public int getClient() {
         return client;
     }
@@ -35,16 +40,12 @@ public class Client {
         }
     }
 
-    public void showServerMessage(){
-        System.out.println(myserver.getInputMessage());
-    }
-
-    public boolean clientServer(){
+    public boolean clientServer() {
         if(client == myserver.getServer()){
             return true;
         }
         else {
-            return true;
+            return false;
         }
     }
 

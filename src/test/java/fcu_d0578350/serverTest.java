@@ -51,4 +51,16 @@ public class serverTest extends TestCase{
         acceptMessage = myServer.setAcceptMessage(inputMessage);
         assertEquals(acceptMessage, myServer.getAcceptMessage());
     }
+    @Test
+    public void test6(){
+        server = myServer.getServer();
+        ans = true;
+        assertEquals(ans, myServer.sizeofServer(server));
+    }
+    @Test
+    public void test7(){
+        ans = true;
+        client = myServer.setServer(8888);
+        assertEquals(client, myServer.getServer());
+    }
 }
