@@ -22,6 +22,15 @@ public class Client {
         return client;
     }
 
+    public boolean sizeofClient(int client){
+        if(client > 9999 || client < 0){
+            return false;
+        }
+        else{
+            return true;
+        }
+    }
+
     public String setInputMessage(String inputMessage){
         this.inputMessage = inputMessage;
         return inputMessage;
@@ -41,6 +50,7 @@ public class Client {
     }
 
     public boolean clientServer() {
+        server = myserver.getServer();
         if(client == myserver.getServer()){
             return true;
         }
