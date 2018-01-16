@@ -62,4 +62,14 @@ public class loginTest extends TestCase{
 
         assertEquals(op, mylogin.check(temp[2], password[0], input));
     }
+    @Test
+    public void test7(){
+        String[] temp = {"ggg","www","rrr"};
+        account = mylogin.setAccount(temp);
+        password = mylogin.setPassword(password);
+        input = mylogin.setShowCode();
+        op = 3;
+
+        assertEquals(op, mylogin.check(temp[0], password[2], input));
+    }
 }

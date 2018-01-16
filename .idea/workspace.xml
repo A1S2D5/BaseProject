@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86ed4a3d-ce27-4983-b26a-e592e3ce24ba" name="Default" comment="project test with time check by D0578350">
+    <list default="true" id="86ed4a3d-ce27-4983-b26a-e592e3ce24ba" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fcu_d0578350/loginTest.java" afterPath="$PROJECT_DIR$/src/test/java/fcu_d0578350/loginTest.java" />
     </list>
@@ -69,8 +69,8 @@
       <file leaf-file-name="loginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/loginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="60" column="14" lean-forward="false" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+            <state relative-caret-position="945">
+              <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -452,31 +452,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="clientTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="fcu_d0578350.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BaseProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="fcu_d0578350" />
-      <option name="MAIN_CLASS_NAME" value="fcu_d0578350.clientTest" />
-      <option name="METHOD_NAME" value="test9" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="loginTest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -490,6 +465,31 @@
       <option name="PACKAGE_NAME" value="fcu_d0578350" />
       <option name="MAIN_CLASS_NAME" value="fcu_d0578350.loginTest" />
       <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="loginTest.test7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fcu_d0578350.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BaseProject_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="fcu_d0578350" />
+      <option name="MAIN_CLASS_NAME" value="fcu_d0578350.loginTest" />
+      <option name="METHOD_NAME" value="test7" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -570,18 +570,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android JUnit.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.allTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.clientTest.test9" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.serverTest.test10" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.clientTest.test10" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.loginTest.test6" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.serverTest.test10" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.clientTest.test10" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.loginTest.test6" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.loginTest.test7" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.allTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.loginTest.test6" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.clientTest.test10" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.serverTest.test10" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.clientTest.test9" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.loginTest.test7" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.loginTest.test6" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.clientTest.test10" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.serverTest.test10" />
       </list>
     </recent_temporary>
   </component>
@@ -823,16 +823,17 @@
       <option name="project" value="LOCAL" />
       <updated>1516107812476</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="project test with time check by D0578350">
+      <created>1516108287151</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1516108287151</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="allTest - 2018.01.16 at 20h 59m 04s.xml">
-      <configuration name="allTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="allTest - 2018.01.16 at 21h 01m 06s.xml">
-      <configuration name="allTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="allTest - 2018.01.16 at 21h 03m 26s.xml">
       <configuration name="allTest" configurationId="JUnit" />
     </history-entry>
@@ -842,8 +843,8 @@
     <history-entry file="allTest - 2018.01.16 at 21h 10m 25s.xml">
       <configuration name="allTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="clientTest_test10 - 2018.01.16 at 20h 59m 01s.xml">
-      <configuration name="clientTest.test10" configurationId="JUnit" />
+    <history-entry file="allTest - 2018.01.16 at 21h 12m 54s.xml">
+      <configuration name="allTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="loginTest_test6 - 2018.01.16 at 21h 09m 36s.xml">
       <configuration name="loginTest.test6" configurationId="JUnit" />
@@ -856,6 +857,12 @@
     </history-entry>
     <history-entry file="loginTest_test6 - 2018.01.16 at 21h 10m 16s.xml">
       <configuration name="loginTest.test6" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="loginTest_test7 - 2018.01.16 at 21h 12m 40s.xml">
+      <configuration name="loginTest.test7" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="loginTest_test7 - 2018.01.16 at 21h 12m 49s.xml">
+      <configuration name="loginTest.test7" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1248,8 +1255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/loginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="60" column="14" lean-forward="false" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
+        <state relative-caret-position="945">
+          <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
