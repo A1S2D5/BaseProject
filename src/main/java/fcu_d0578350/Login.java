@@ -138,6 +138,22 @@ public class Login {
         login s_login = new login();
         // 開啟系統
         s_login.key_in();
+
+        Client myclient = new Client();
+        myclient.setClient(8888);
+        myclient.getAcceptMessage();
+        myclient.getInputMessage();
+
+        Server myserver = new Server();
+        myserver.setServer(8888);
+        myserver.getAcceptMessage();
+        myserver.getInputMessage();
+
+        Project myproject = new Project();
+        myproject.setSecend(10);
+        myproject.setMinute(10);
+        myproject.equals_min();
+        myproject.equals_sec();
     }
 
 }
