@@ -15,7 +15,7 @@ public class ProjectTest extends TestCase{
         myproject = new Project();
     }
     @After
-    public void tardown() throws Exception{
+    public void teardown() throws Exception{
         myproject  = null;
     }
     @Test

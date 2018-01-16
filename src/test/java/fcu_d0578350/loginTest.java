@@ -15,7 +15,7 @@ public class loginTest extends TestCase{
         mylogin = new login();
     }
     @After
-    public void tardown() throws Exception{
+    public void teardown() throws Exception{
         mylogin = null;
     }
     @Test
