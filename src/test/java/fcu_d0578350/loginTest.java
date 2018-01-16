@@ -46,22 +46,4 @@ public class loginTest extends TestCase{
 
         assertEquals(op, mylogin.check(account[0], password[0], input));
     }
-    @Test
-    public void test5(){
-        input = mylogin.setShowCode();
-
-        assertEquals(input, mylogin.setShowCode());
-    }
-    @Test
-    public void test6(){
-        account = mylogin.setAccount();
-
-        assertEquals(account, mylogin.setAccount());
-    }
-    @Test
-    public void test7(){
-        password = mylogin.setPassword();
-
-        assertEquals(password, mylogin.setPassword());
-    }
 }
