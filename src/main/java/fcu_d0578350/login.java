@@ -63,7 +63,7 @@ class login {
         return temp;
     }
 
-    public String[] setAccount(String[] account){
+    public String[] setAccount(){
         this.account = account;
         return account;
     }
