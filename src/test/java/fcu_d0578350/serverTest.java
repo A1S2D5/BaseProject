@@ -78,4 +78,8 @@ public class serverTest extends TestCase{
     public void test10(){
         myServer.sizeofImputMessage(myServer.getInputMessage());
     }
+    @Test
+    public void test11(){
+        myServer.sizeofServer(myServer.getServer());
+    }
 }
