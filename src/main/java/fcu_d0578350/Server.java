@@ -55,6 +55,15 @@ public class Server {
         }
     }
 
+    public String setAcceptMessage(String inputMessage){
+        this.acceptMessage = inputMessage;
+        return acceptMessage;
+    }
+
+    public String getAcceptMessage() {
+        return acceptMessage;
+    }
+
     public static void main(String args[]) {
         new Server();
     }
