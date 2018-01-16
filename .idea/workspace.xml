@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86ed4a3d-ce27-4983-b26a-e592e3ce24ba" name="Default" comment="">
+    <list default="true" id="86ed4a3d-ce27-4983-b26a-e592e3ce24ba" name="Default" comment="project test with time check by D0578350">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fcu_d0578350/clientTest.java" afterPath="$PROJECT_DIR$/src/test/java/fcu_d0578350/clientTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/fcu_d0578350/serverTest.java" afterPath="$PROJECT_DIR$/src/test/java/fcu_d0578350/serverTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fcu_d0578350/Client.java" afterPath="$PROJECT_DIR$/src/main/java/fcu_d0578350/Client.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fcu_d0578350/Server.java" afterPath="$PROJECT_DIR$/src/main/java/fcu_d0578350/Server.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,16 +23,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projectTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/github/A1S2D5/projectTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="43" column="45" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -92,15 +82,32 @@
       <file leaf-file-name="Server.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fcu_d0578350/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="73" column="7" lean-forward="false" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+            <state relative-caret-position="144">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
               <folding>
+                <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#1439#1440#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#1410#1411#0" expanded="true" />
+                <element signature="e#1446#1447#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fcu_d0578350/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding>
+                <element signature="e#414#415#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1445#1446#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,7 +134,7 @@
       <file leaf-file-name="clientTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/clientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
+            <state relative-caret-position="1871">
               <caret line="81" column="52" lean-forward="false" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -191,19 +198,19 @@
         <option value="$PROJECT_DIR$/src/main/java/fcu_d0578350/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/fcu_d0578350/Messenge.java" />
         <option value="$PROJECT_DIR$/src/test/java/fcu_d0578350/clientServerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fcu_d0578350/Client.java" />
         <option value="$PROJECT_DIR$/src/test/java/fcu_d0578350/ProjectTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fcu_d0578350/Project.java" />
         <option value="$PROJECT_DIR$/src/test/java/fcu_d0578350/allTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/fcu_d0578350/Begin.java" />
         <option value="$PROJECT_DIR$/src/main/java/fcu_d0578350/Login.java" />
-        <option value="$PROJECT_DIR$/src/main/java/fcu_d0578350/Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/fcu_d0578350/login.java" />
         <option value="$PROJECT_DIR$/src/test/java/fcu_d0578350/loginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/A1S2D5/project.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/A1S2D5/projectTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/fcu_d0578350/serverTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/fcu_d0578350/clientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fcu_d0578350/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fcu_d0578350/Client.java" />
       </list>
     </option>
   </component>
@@ -803,7 +810,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516107566949</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="project test with time check by D0578350">
+      <created>1516107677069</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1516107677069</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -819,14 +833,14 @@
     <history-entry file="allTest - 2018.01.16 at 21h 01m 06s.xml">
       <configuration name="allTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="allTest - 2018.01.16 at 21h 03m 26s.xml">
+      <configuration name="allTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="clientTest_test10 - 2018.01.16 at 20h 59m 01s.xml">
       <configuration name="clientTest.test10" configurationId="JUnit" />
     </history-entry>
     <history-entry file="clientTest_test9 - 2018.01.16 at 20h 54m 19s.xml">
       <configuration name="clientTest.test9" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="projectTest - 2018.01.16 at 20h 24m 05s.xml">
-      <configuration name="projectTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="projectTest - 2018.01.16 at 20h 28m 19s.xml">
       <configuration name="projectTest" configurationId="JUnit" />
@@ -951,12 +965,12 @@
         <state relative-caret-position="1608">
           <caret line="73" column="7" lean-forward="false" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
           <folding>
+            <element signature="e#415#416#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1098,21 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fcu_d0578350/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="55" column="14" lean-forward="true" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-          <folding>
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#1437#1438#0" expanded="true" />
-            <element signature="e#1473#1474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fcu_d0578350/Project.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-361">
@@ -1189,24 +1188,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/fcu_d0578350/Server.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/serverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="73" column="7" lean-forward="false" selection-start-line="73" selection-start-column="7" selection-end-line="73" selection-end-column="7" />
+        <state relative-caret-position="441">
+          <caret line="82" column="52" lean-forward="false" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
           <folding>
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-            <element signature="e#1439#1440#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+            <element signature="e#2018#2019#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/clientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
+        <state relative-caret-position="1871">
           <caret line="81" column="52" lean-forward="false" selection-start-line="81" selection-start-column="52" selection-end-line="81" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1220,18 +1220,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/serverTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fcu_d0578350/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="82" column="52" lean-forward="false" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
+        <state relative-caret-position="144">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1767#1768#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1852#1853#0" expanded="true" />
-            <element signature="e#1923#1924#0" expanded="true" />
-            <element signature="e#1959#1960#0" expanded="true" />
-            <element signature="e#2018#2019#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1446#1447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fcu_d0578350/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
           </folding>
         </state>
       </provider>

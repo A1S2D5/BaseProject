@@ -5,8 +5,7 @@ public class Server {
     private int server;
     private String inputMessage;
     private String acceptMessage;
-    public Client myclient;
-    private int client;
+    public int client;
 
     public Server() {
         inputMessage = "aaa";
