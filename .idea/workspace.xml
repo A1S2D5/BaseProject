@@ -4,6 +4,7 @@
     <list default="true" id="86ed4a3d-ce27-4983-b26a-e592e3ce24ba" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fcu_d0578350/clientTest.java" afterPath="$PROJECT_DIR$/src/test/java/fcu_d0578350/clientTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/fcu_d0578350/serverTest.java" afterPath="$PROJECT_DIR$/src/test/java/fcu_d0578350/serverTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -108,12 +109,14 @@
       <file leaf-file-name="serverTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/serverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="74" column="42" lean-forward="true" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+            <state relative-caret-position="633">
+              <caret line="78" column="64" lean-forward="false" selection-start-line="78" selection-start-column="64" selection-end-line="78" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1767#1768#0" expanded="true" />
                 <element signature="e#1816#1817#0" expanded="true" />
+                <element signature="e#1852#1853#0" expanded="true" />
+                <element signature="e#1923#1924#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,11 +126,13 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/clientTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="633">
-              <caret line="73" column="42" lean-forward="true" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+              <caret line="77" column="64" lean-forward="false" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1766#1767#0" expanded="true" />
                 <element signature="e#1815#1816#0" expanded="true" />
+                <element signature="e#1851#1852#0" expanded="true" />
+                <element signature="e#1922#1923#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,8 +141,8 @@
       <file leaf-file-name="allTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/allTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="312">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -412,6 +417,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="clientTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="fcu_d0578350.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="BaseProject_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="fcu_d0578350" />
+      <option name="MAIN_CLASS_NAME" value="fcu_d0578350.clientTest" />
+      <option name="METHOD_NAME" value="test10" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="clientTest.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -437,7 +467,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="serverTest.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="fcu_d0578350.*" />
@@ -448,34 +478,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="fcu_d0578350" />
-      <option name="MAIN_CLASS_NAME" value="fcu_d0578350.loginTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="projectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.github.A1S2D5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="BaseProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.github.A1S2D5" />
-      <option name="MAIN_CLASS_NAME" value="com.github.A1S2D5.projectTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="fcu_d0578350.serverTest" />
+      <option name="METHOD_NAME" value="test10" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -555,18 +560,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android JUnit.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.allTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.loginTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.projectTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.serverTest.test9" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.clientTest.test9" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.serverTest.test9" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.clientTest.test9" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.serverTest.test10" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.clientTest.test10" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.allTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.clientTest.test9" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.serverTest.test9" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.projectTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.loginTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.clientTest.test10" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.serverTest.test10" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.clientTest.test9" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.serverTest.test9" />
       </list>
     </recent_temporary>
   </component>
@@ -773,7 +778,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516107081451</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="project test with time check by D0578350">
+      <created>1516107271499</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1516107271499</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -783,17 +795,14 @@
     <history-entry file="allTest - 2018.01.16 at 20h 54m 23s.xml">
       <configuration name="allTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="allTest - 2018.01.16 at 20h 59m 04s.xml">
+      <configuration name="allTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="clientTest_test10 - 2018.01.16 at 20h 59m 01s.xml">
+      <configuration name="clientTest.test10" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="clientTest_test9 - 2018.01.16 at 20h 54m 19s.xml">
       <configuration name="clientTest.test9" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="loginTest_test4 - 2018.01.16 at 20h 03m 28s.xml">
-      <configuration name="loginTest.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="loginTest_test4 - 2018.01.16 at 20h 04m 47s.xml">
-      <configuration name="loginTest.test4" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="loginTest_test6 - 2018.01.16 at 20h 02m 08s.xml">
-      <configuration name="loginTest.test6" configurationId="JUnit" />
     </history-entry>
     <history-entry file="projectTest - 2018.01.16 at 20h 22m 46s.xml">
       <configuration name="projectTest" configurationId="JUnit" />
@@ -803,6 +812,9 @@
     </history-entry>
     <history-entry file="projectTest - 2018.01.16 at 20h 28m 19s.xml">
       <configuration name="projectTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="serverTest_test10 - 2018.01.16 at 20h 58m 12s.xml">
+      <configuration name="serverTest.test10" configurationId="JUnit" />
     </history-entry>
     <history-entry file="serverTest_test9 - 2018.01.16 at 20h 50m 51s.xml">
       <configuration name="serverTest.test9" configurationId="JUnit" />
@@ -939,6 +951,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1767#1768#0" expanded="true" />
             <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -951,6 +965,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1766#1767#0" expanded="true" />
             <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1168,12 +1184,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/serverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="74" column="42" lean-forward="true" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+        <state relative-caret-position="633">
+          <caret line="78" column="64" lean-forward="false" selection-start-line="78" selection-start-column="64" selection-end-line="78" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1767#1768#0" expanded="true" />
             <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="e#1852#1853#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1181,19 +1199,21 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/clientTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="633">
-          <caret line="73" column="42" lean-forward="true" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+          <caret line="77" column="64" lean-forward="false" selection-start-line="77" selection-start-column="64" selection-end-line="77" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1766#1767#0" expanded="true" />
             <element signature="e#1815#1816#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#1922#1923#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fcu_d0578350/allTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="44" lean-forward="false" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        <state relative-caret-position="312">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

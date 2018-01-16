@@ -73,4 +73,8 @@ public class clientTest extends TestCase{
     public void test9(){
         myClient.clientServer(1212, 8888);
     }
+    @Test
+    public void test10(){
+        myClient.sizeofImputMessage(myClient.getInputMessage());
+    }
 }
