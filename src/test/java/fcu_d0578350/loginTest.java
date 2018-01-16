@@ -6,7 +6,7 @@ import org.junit.*;
 public class loginTest extends TestCase{
 
     public int[] input = new int[8];
-    public String[] account = new String[3];
+    public String[] account = {"aaa", "bbb", "ccc"};
     public String[] password = {"111", "222", "333"};
     public int op = 0;
     public login mylogin;
@@ -29,20 +29,20 @@ public class loginTest extends TestCase{
     }
     @Test
     public void test2(){
-        account = mylogin.setAccount();
+        account = mylogin.setAccount(account);
 
         assertEquals(account, mylogin.getAccount());
     }
     @Test
     public void test3(){
-        password = mylogin.setPassword();
+        password = mylogin.setPassword(password);
 
         assertEquals(password, mylogin.getPassword());
     }
     @Test
     public void test4(){
-        account = mylogin.setAccount();
-        password = mylogin.setPassword();
+        account = mylogin.setAccount(account);
+        password = mylogin.setPassword(password);
         input = mylogin.setShowCode();
         op = 4;
 
