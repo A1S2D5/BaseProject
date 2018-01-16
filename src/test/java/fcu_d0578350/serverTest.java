@@ -63,4 +63,11 @@ public class serverTest extends TestCase{
         client = myServer.setServer(8888);
         assertEquals(client, myServer.getServer());
     }
+    @Test
+    public void test8(){
+        client = myServer.getServer();
+        server = 8888;
+        ans = true;
+        assertEquals(ans, myServer.clientServer(client, server));
+    }
 }

@@ -57,9 +57,16 @@ public class clientTest extends TestCase{
         assertEquals(client, myClient.getClient());
     }
     @Test
-    public  void test7(){
+    public void test7(){
         client = myClient.getClient();
         ans = true;
         assertEquals(ans, myClient.sizeofClient(client));
+    }
+    @Test
+    public void test8(){
+        client = myClient.getClient();
+        server = 8888;
+        ans = true;
+        assertEquals(ans, myClient.clientServer(client, server));
     }
 }

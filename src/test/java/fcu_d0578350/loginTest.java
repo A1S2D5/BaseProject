@@ -10,6 +10,7 @@ public class loginTest extends TestCase{
     public String[] password = {"111", "222", "333"};
     public int op = 0;
     public login mylogin;
+
     @Before
     public void setUp() throws Exception{
         mylogin = new login();
@@ -44,5 +45,23 @@ public class loginTest extends TestCase{
         op = 4;
 
         assertEquals(op, mylogin.check(account[0], password[0], input));
+    }
+    @Test
+    public void test5(){
+        input = mylogin.setShowCode();
+
+        assertEquals(input, mylogin.setShowCode());
+    }
+    @Test
+    public void test6(){
+        account = mylogin.setAccount();
+
+        assertEquals(account, mylogin.setAccount());
+    }
+    @Test
+    public void test7(){
+        password = mylogin.setPassword();
+
+        assertEquals(password, mylogin.setPassword());
     }
 }

@@ -74,4 +74,15 @@ public class ProjectTest extends TestCase{
         assertEquals(minresult, myproject.equals_min());
         assertEquals(secresult, myproject.equals_sec());
     }
+    @Test
+    public void test5(){
+        myproject.getMinute();
+        myproject.getSecend();
+
+        minresult = true;
+        secresult = true;
+
+        assertEquals(minresult, myproject.equals_min());
+        assertEquals(secresult, myproject.equals_sec());
+    }
 }

@@ -49,9 +49,8 @@ public class Client {
         }
     }
 
-    public boolean clientServer() {
-        server = myserver.getServer();
-        if(client == myserver.getServer()){
+    public boolean clientServer(int client, int server) {
+        if(client == server){
             return true;
         }
         else {

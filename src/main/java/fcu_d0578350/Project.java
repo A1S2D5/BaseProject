@@ -9,11 +9,6 @@ public class Project {
         this.secend = 0;
     }
 
-    public Project(int minute, int secend){
-        this.minute = minute;
-        this.secend = secend;
-    }
-
     public void setMinute(int minute) {
         this.minute = minute;
     }
