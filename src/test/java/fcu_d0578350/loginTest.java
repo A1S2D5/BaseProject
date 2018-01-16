@@ -10,7 +10,7 @@ public class loginTest extends TestCase{
     public String[] password = {"111", "222", "333"};
     public int op = 0;
     public login mylogin;
-    public String message = "驗證碼錯誤";
+    public String message = "登入成功";
 
     @Before
     public void setUp() throws Exception{
@@ -43,7 +43,7 @@ public class loginTest extends TestCase{
         account = mylogin.setAccount(account);
         password = mylogin.setPassword(password);
         input = mylogin.setShowCode();
-        op = 4;
+        op = 1;
 
         assertEquals(op, mylogin.check(account[0], password[0], input));
     }
@@ -71,5 +71,16 @@ public class loginTest extends TestCase{
         op = 3;
 
         assertEquals(op, mylogin.check(temp[0], password[2], input));
+    }
+    @Test
+    public void test8(){
+        account = mylogin.setAccount(account);
+        password = mylogin.setPassword(password);
+        for(int i = 0; i < 8; i++){
+            input[i] = i++;
+        }
+        op = 4;
+
+        assertEquals(op, mylogin.check(account[0], password[0], input));
     }
 }

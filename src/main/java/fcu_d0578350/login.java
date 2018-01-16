@@ -107,10 +107,11 @@ class login {
         //  密碼錯傳回 3
         //  驗證碼錯傳回4
         for (int i = 0; i < account.length; i++) {
-            String code_t = "";
+            /*String code_t = "";
             for (int j = 0; j < 8; j++) {
                 code_t += (char) getShowCode()[j];
-            }
+            }*/
+            int[] code_t = getShowCode();
             if (id.equals(account[i]) && pw.equals(password[i]) && code.equals(code_t)) {
                 op = 1;
                 return op;
