@@ -10,6 +10,8 @@ public class loginTest extends TestCase{
     public String[] password = {"111", "222", "333"};
     public int op = 0;
     public login mylogin;
+    public String key_in;
+    public String message = "驗證碼錯誤";
 
     @Before
     public void setUp() throws Exception{
@@ -45,5 +47,10 @@ public class loginTest extends TestCase{
         op = 4;
 
         assertEquals(op, mylogin.check(account[0], password[0], input));
+    }
+    @Test
+    public void test5(){
+        System.out.println(1);
+        assertEquals(message, mylogin.key_in());
     }
 }
