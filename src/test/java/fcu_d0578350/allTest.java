@@ -1,6 +1,5 @@
 package fcu_d0578350;
 
-import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
@@ -9,10 +8,8 @@ import org.junit.runners.Suite.SuiteClasses;
 @SuiteClasses({
     clientTest.class,
     loginTest.class,
-    Project.class,
-    serverTest.class,
-    })
-
+    ProjectTest.class,
+    serverTest.class})
 public class allTest {
 
 }
