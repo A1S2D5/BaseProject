@@ -8,27 +8,21 @@ class login {
     public void key_in(){
         String key_id = "";
         String key_pw = "";
-        String key_code = "";
+        int[] key_code = null;
         String msg = "";
 
-        boolean flag = false;
-
-        while (flag) {
 
             System.out.println("請輸入帳號:");
-            java.util.Scanner s = new java.util.Scanner(System.in);
-            key_id = s.next();
+            key_id = "aaa";
 
             System.out.println("請輸入密碼:");
-            java.util.Scanner s2 = new java.util.Scanner(System.in);
-            key_pw = s2.next();
+            key_pw = "111";
 
             // 秀出驗證碼
             show_code();
             // 輸入驗證碼
             System.out.println("請輸入驗證碼:");
-            java.util.Scanner s3 = new java.util.Scanner(System.in);
-            key_code = s3.next();
+            key_code = getShowCode();
 
             // 呼叫 check(    )
             switch (check(key_id, key_pw, key_code)) {
@@ -49,11 +43,28 @@ class login {
                     break;
             }
             System.out.println(msg);
+    }
+
+    public int[] setShowCode(){
+        for (int i = 0; i < 8; i++) {
+            if (i < 3) {                                           //前 3 放數字
+                this.temp[i] = (int) ((Math.random() * 10) + 48);
+            } else if (i < 6) {                                           // 中間 3 位放大寫英文
+                this.temp[i] = (int) (((Math.random() * 26) + 65));
+            } else {                                           // 後 2 位放小寫英文
+                this.temp[i] = ((int) ((Math.random() * 26) + 97));
+            }
         }
+        return temp;
     }
 
     public int[] getShowCode(){
         return temp;
+    }
+
+    public String[] setAccount(){
+        this.account = account;
+        return account;
     }
 
     public String[] getAccount(){
@@ -77,7 +88,7 @@ class login {
         System.out.println();
     }
 
-    public int check(String id, String pw, String code) {
+    public int check(String id, String pw, int[] code) {
         int op = 0;
         //  檢查如果正確傳回 1
         //  帳號錯傳回 2

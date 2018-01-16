@@ -4,7 +4,10 @@ import junit.framework.TestCase;
 import org.junit.*;
 
 public class loginTest extends TestCase{
-    public int input[] = new int[8];
+
+    public int[] input = new int[8];
+    public String[] account = new String[3];
+    public String password[] = {"111", "222", "333"};
     public login mylogin;
     @Before
     public void setUp() throws Exception{
@@ -15,24 +18,14 @@ public class loginTest extends TestCase{
         mylogin = null;
     }
     @Test
-    public void Test1() {
-        char x = 'a';
-        for (int i = 0; i < 3; i++) {
-            input[i] = i;
-        }
-        for (int i = 3; i < 6; i++) {
-            input[i] = x;
-            x++;
-        }
-        for (int i = 6; i < 8; i++) {
-            input[i] = i;
-        }
+    public void test1() {
+        input = mylogin.setShowCode();
 
         assertEquals(input, mylogin.getShowCode());
     }
     @Test
-    public void Test2(){
-        String account[] = {"aaa", "bbb", "ccc"};
+    public void test2(){
+        account = mylogin.setAccount();
 
         assertEquals(account, mylogin.getAccount());
     }
