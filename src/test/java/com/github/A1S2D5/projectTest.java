@@ -33,4 +33,14 @@ public class projectTest {
        result = true;
        assertEquals(result, time.Sover(time.S));
     }
+    @Test
+    public void test4(){
+       time.M = 70;
+       assertEquals(result, time.Mover(time.M));
+    }
+    @Test
+    public void test5(){
+       time.S = -78;
+       assertEquals(result, time.Sover(time.S));
+    }
 }
