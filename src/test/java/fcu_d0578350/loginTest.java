@@ -29,7 +29,7 @@ public class loginTest extends TestCase{
     }
     @Test
     public void test2(){
-        account = mylogin.setAccount();
+        account = mylogin.setAccount(account);
 
         assertEquals(account, mylogin.getAccount());
     }
@@ -41,7 +41,7 @@ public class loginTest extends TestCase{
     }
     @Test
     public void test4(){
-        account = mylogin.setAccount();
+        account = mylogin.setAccount(account);
         password = mylogin.setPassword();
         input = mylogin.setShowCode();
         op = 4;
