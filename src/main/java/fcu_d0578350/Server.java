@@ -5,11 +5,14 @@ public class Server {
     private int server;
     private String inputMessage;
     private String acceptMessage;
+    public Client myclient;
+    private int client;
 
     public Server() {
         inputMessage = "aaa";
         acceptMessage = "";
         server = 8888;
+        client = 0;
     }
 
     public int getServer(){
@@ -39,6 +42,15 @@ public class Server {
             return false;
         }
         else{
+            return true;
+        }
+    }
+
+    public boolean clientServer(){
+        if(client == myclient.getClient()){
+            return true;
+        }
+        else {
             return true;
         }
     }

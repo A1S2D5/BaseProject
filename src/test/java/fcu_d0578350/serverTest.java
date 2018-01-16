@@ -38,4 +38,8 @@ public class serverTest extends TestCase{
 
         assertEquals(ans, myServer.sizeofImputMessage(inputMessage));
     }
+    @Test
+    public void test4(){
+
+    }
 }
