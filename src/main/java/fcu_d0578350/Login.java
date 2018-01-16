@@ -131,4 +131,15 @@ class login {
     }
 }
 
+public class Login {
+
+    public static void main(String[] args) {
+        // 建立一個系統登入的物件
+        login s_login = new login();
+        // 開啟系統
+        s_login.key_in();
+    }
+
+}
+
 
