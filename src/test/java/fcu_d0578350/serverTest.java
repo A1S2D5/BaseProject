@@ -8,6 +8,7 @@ public class serverTest extends TestCase{
     private int server;
     private String inputMessage;
     private String acceptMessage;
+    private boolean ans;
 
     @Before
     public void setUp() throws Exception{
@@ -26,9 +27,15 @@ public class serverTest extends TestCase{
     }
     @Test
     public void test2(){
-        inputMessage = "aaa";
         inputMessage = myServer.setInputMessage(inputMessage);
 
         assertEquals(inputMessage, myServer.getInputMessage());
+    }
+    @Test
+    public void test3(){
+        inputMessage = "aaa";
+        ans = true;
+
+        assertEquals(ans, myServer.sizeofImputMessage(inputMessage));
     }
 }
