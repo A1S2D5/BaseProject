@@ -12,16 +12,16 @@ class login {
         String msg = "";
 
 
-           // System.out.println("請輸入帳號:");
+            System.out.println("請輸入帳號:");
             key_id = "aaa";
 
-            //System.out.println("請輸入密碼:");
+            System.out.println("請輸入密碼:");
             key_pw = "111";
 
             // 秀出驗證碼
             show_code();
             // 輸入驗證碼
-            //System.out.println("請輸入驗證碼:");
+            System.out.println("請輸入驗證碼:");
             key_code = getShowCode();
 
             // 呼叫 check(    )

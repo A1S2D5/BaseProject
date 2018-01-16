@@ -50,7 +50,6 @@ public class loginTest extends TestCase{
     }
     @Test
     public void test5(){
-        System.out.println(1);
         assertEquals(message, mylogin.key_in());
     }
 }
